@@ -1,0 +1,103 @@
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content-container{
+    height: 90vh;
+    width: 80vw;
+    max-width: 1200px;
+    border-radius: 4vh;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.invisible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    height: 90%;
+}
+
+.content-container h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.calculator-display{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(91, 91, 91);
+    border-radius: 1.5vh;
+    margin-top: 3vh;
+    height: 10%;
+    width: 100%;
+}
+
+.calculator-display p{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 0.7rem;
+}
+
+.calculator-display h3{
+    color: #fff;
+    margin-right: 15px;
+    font-size: 2.5rem;
+}
+
+.buttons{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin-top: 5vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.buttons button{
+    display: flex;
+    border: transparent;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vh;
+    box-shadow: 5px 5px 5px 2px #000;
+    cursor: pointer;
+}
+
+.button1 { grid-area: 1 / 1 / 2 / 2; background-color: rgb(255, 187, 0);}
+.button2 { grid-area: 1 / 2 / 2 / 3; background-color: rgb(255, 187, 0);}
+.button3 { grid-area: 1 / 3 / 2 / 4; background-color: rgb(255, 187, 0);}
+.button4 { grid-area: 1 / 4 / 2 / 5; background-color: rgb(255, 187, 0);}
+.button5 { grid-area: 2 / 1 / 3 / 2; background-color: rgb(91,91,91);}
+.button6 { grid-area: 2 / 2 / 3 / 3; background-color: rgb(91,91,91);}
+.button7 { grid-area: 2 / 3 / 3 / 4; background-color: rgb(91,91,91);}
+.button8 { grid-area: 2 / 4 / 3 / 5; background-color: rgb(255, 187, 0);}
+.button9 { grid-area: 3 / 1 / 4 / 2; background-color: rgb(91,91,91);}
+.button10 { grid-area: 3 / 2 / 4 / 3; background-color: rgb(91,91,91);}
+.button11 { grid-area: 3 / 3 / 4 / 4; background-color: rgb(91,91,91);}
+.button12 { grid-area: 3 / 4 / 4 / 5; background-color: rgb(255, 187, 0);}
+.button13 { grid-area: 4 / 1 / 5 / 2; background-color: rgb(91,91,91);}
+.button14 { grid-area: 4 / 2 / 5 / 3; background-color: rgb(91,91,91);}
+.button15 { grid-area: 4 / 3 / 5 / 4; background-color: rgb(91,91,91);}
+.button16 { grid-area: 4 / 4 / 5 / 5; background-color: rgb(255, 187, 0);}
+.button17 { grid-area: 5 / 1 / 6 / 2; background-color: rgb(91,91,91);}
+.button18 { grid-area: 5 / 2 / 6 / 3; background-color: rgb(91,91,91);}
+.button19 { grid-area: 5 / 3 / 6 / 4; background-color: rgb(91,91,91);}
+.button20 { grid-area: 5 / 4 / 6 / 5; background-color: rgb(255, 187, 0);}
